@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans serif;
+    font-size: 20px;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  footer {
+    background: linear-gradient(to bottom right, rgb(112, 181, 207), rgb(207, 56, 99)); 
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  
+  .footer-content {
+    flex: calc(25% - 20px); 
+    margin-bottom: 20px;
+     margin-left: 10px;
+  }
+  
+  .footer-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#100916;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin-bottom: 5px;
+  }
+  
+  .email-subscribe {
+    margin-left: 35px;
+    flex-basis: calc(25% - 20px); 
+  }
+  
+  .email-subscribe h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .email-subscribe input[type="email"] {
+    
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .email-subscribe button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .email-subscribe button:hover {
+    background-color: #b51717;
+  }
+  
+
+
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #8f8d8d;
+    padding: 10px 0;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .left {
+    flex: 5;
+}
+
+.footer-bottom .left img {
+    max-width: 100px;
+}
+
+.footer-bottom .right {
+    flex: 15;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+#danh-gia {
+    border: 2px solid #373333;
+    padding: 10px;
+    background-color: rgb(122, 225, 199);
+}
+
+#danh-gia h3 {
+    margin-top: 1;
+    margin-bottom: 10px;
+}
+
+#danh-gia ul {
+    list-style: none;
+    padding: 0;
+}
+
+#danh-gia ul li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #7d3e3e;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+#danh-gia ul li .avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+#danh-gia ul li .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#danh-gia ul li .noi-dung {
+    overflow: hidden;
+
+}
+
+#danh-gia ul li .noi-dung p {
+    margin-bottom: 10px;
+}
+
+#danh-gia ul li .noi-dung strong {
+    font-weight: bolder;
+}
+
+#danh-gia form {
+    margin-top: 10px;
+}
+
+#danh-gia form input {
+    width: max-content;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+#danh-gia form button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #3aba80;
+    color: #fff;
+}
+#danh-gia form button:hover {
+color: rgb(174, 34, 34);
+}
